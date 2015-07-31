@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{{width}}" height="{{height}}">
+    <image x="0" y="0" width="{{width}}" height="{{height}}" xlink:href="data:image/jpg;base64,{{base64Background}}" />
+    <image x="0" y="0" width="{{width}}" height="{{height}}" xlink:href="data:image/png;base64,{{base64Top}}" />
+</svg>
