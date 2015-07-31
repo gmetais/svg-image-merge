@@ -11,9 +11,13 @@ Let's say you want to add an image on your website, that contains both:
 Of course, this could be done easily in HTML by positioning a transparent `<img>` over another `<img>`. Use this tool if you can't do that, if it needs to fit in a single field of a back-office for exemple.
 
 
+Here is an example result file:
+![svg example](https://raw.github.com/gmetais/svg-image-merge/master/test/result.svg)
+
+
 ## How it works
 
-It's very simple. It takes two images on your computer, base64 encode both of them, then creates an SVG. The structure of the SVG is very simple and looks basically like this:
+It's very simple. It takes two images on your computer, base64 encodes both of them, then creates an SVG. The structure of the SVG is very simple and looks basically like this:
 ```html
 <svg width="800" height="600">
     <image x="0" y="0" width="800" height="600" xlink:href="data:image/jpg;base64,{{base64-encoded-background}}" />
