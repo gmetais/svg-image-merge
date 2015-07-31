@@ -13,7 +13,7 @@ Of course, this could be done easily in HTML by positioning a transparent `<img>
 
 Here is an example result file:
 
-![svg example](https://raw.githubusercontent.com/gmetais/svg-image-merge/master/test/result.svg)
+![svg example](https://cdn.rawgit.com/gmetais/svg-image-merge/master/test/result.svg)
 
 
 ## How it works
