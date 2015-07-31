@@ -1,6 +1,9 @@
 # SVG Image Merge
 
-A tool for image optimization freaks.
+*A tool for image optimization freaks.*
+
+This tool is related to [this article](https://gmetais.github.io/image-optim/2015/07/31/svg-image-merge.html), which is a good introduction to this tool.
+
 
 Let's say you want to add an image on your website, that contains both:
 - a photography that could be compressed as a JPEG (using a PNG would make a huge file)
