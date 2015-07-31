@@ -26,7 +26,7 @@ Once it's done, simply serve the new SVG like any other image in your HTML:
 <img src="merged-image.svg" />
 ```
 
-*Don't forget to check that your server is configured to properly **gzip** SVG images (content type `image/svg+xml`).*
+*Don't forget to check that your server is configured to properly* **gzip** *SVG images (content type `image/svg+xml`).*
 
 
 ### Installation

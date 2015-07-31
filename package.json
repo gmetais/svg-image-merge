@@ -1,7 +1,7 @@
 {
   "name": "svg-image-merge",
-  "version": "0.0.0",
-  "description": "When you want an image with both a compressed background and a pixel perfect text on top... Merge a JPEG background and a transparent PNG into a single SVG image",
+  "version": "0.1.0",
+  "description": "When you want an image with both a compressed background and a pixel perfect text on top... Merges a JPEG background and a transparent PNG into a single SVG image",
   "main": "lib/index.js",
   "bin": {
     "svg-image-merge": "./bin/cli.js"
@@ -26,6 +26,7 @@
     "image-size": "0.3.5",
     "meow": "3.3.0",
     "mustache": "2.1.2",
-    "q": "1.4.1"
+    "q": "1.4.1",
+    "svgo": "0.5.3"
   }
 }
