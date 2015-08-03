@@ -51,7 +51,10 @@ None for the moment
 
 
 ## Browser compatibility
-Sorry my old IE8 friend, you're not able to understand SVG images...
+
+**Be careful!** Safari 8 is not able to display base64 encoded images inside an SVG if the SVG is loaded via `<img>`. It's working correctly with an `<object>` tag. It seems to be corrected in Safari 9, if anyone can test and tell me.
+
+IE8 is not able to understand SVG images at all.
 
 
 ## Author
